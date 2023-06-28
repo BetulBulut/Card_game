@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultiPlayer_Mode">
+
+
+    <GridLayout
+        android:id="@+id/gridLayout2m"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="300dp"
+
+
+        android:layout_marginBottom="10dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="232dp">
+
+
+
+    </GridLayout>
+    <TextView
+        android:id="@+id/sure2m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Sure:60" />
+
+    <TextView
+        android:id="@+id/player1m2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:text="Oyuncu 1:" />
+
+    <TextView
+        android:id="@+id/player2m2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Oyuncu 2:" />
+
+    <TextView
+        android:id="@+id/siram2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="150dp"
+        android:text="Sıra: Oyuncu 1" />
+    <Button
+        android:id="@+id/muzıkAc"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:onClick="muzikAc"
+        android:text="Müzik"
+        android:textSize="8sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".SifreGuncelle">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yeni Sifre"
+        android:textAlignment="center"
+        android:id="@+id/edit_guncelle_sifre"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guncelle"
+        android:textSize="18sp"
+        android:onClick="guncelle"
+        android:layout_marginTop="30dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

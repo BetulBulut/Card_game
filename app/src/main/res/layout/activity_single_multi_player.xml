@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat  xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:layout_height="match_parent"
+tools:context=".Single_MultiPlayer">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SinglePlayer Mode"
+    android:textSize="18sp"
+    android:onClick="singlePlayer"
+    android:layout_marginTop="30dp"
+    tools:ignore="MissingConstraints" />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="MultiPlayer Mode"
+    android:textSize="18sp"
+    android:onClick="multiPlayer"
+    android:layout_marginTop="30dp"
+    tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Şifre Güncelle"
+        android:textSize="18sp"
+        android:onClick="sıfreGuncelle"
+        android:layout_marginTop="30dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Müzik"
+        android:id="@+id/muzıkAc"
+        android:textSize="18sp"
+        android:onClick="muzikAc"
+        android:layout_marginTop="30dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat >

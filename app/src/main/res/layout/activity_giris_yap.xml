@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Giris_Yap">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Adınız"
+        android:textAlignment="center"
+        android:id="@+id/giris_yap_kullaniciadi"
+        android:inputType="textShortMessage"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sifreniz"
+        android:textAlignment="center"
+        android:id="@+id/giris_yap_sifre"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giris Yap"
+        android:textSize="18sp"
+        android:onClick="girisYap"
+        android:layout_marginTop="30dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
